@@ -1,0 +1,14 @@
+{
+    "type": "content",
+    "modid": "customizableplatearmor",
+    "name": "CustomizablePlateArmor",
+    "authors": [
+        "BowlSoldier"
+    ],
+    "description": "Allow changing appearance of Plate armor types for cosmetics, without altering their stats",
+    "version": "1.0.0",
+    "dependencies": {
+      "combatoverhaul": "*",
+      "wearablerenderlib": "*"
+    }
+}

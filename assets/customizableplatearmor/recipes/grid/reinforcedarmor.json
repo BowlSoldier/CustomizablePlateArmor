@@ -1,0 +1,238 @@
+[
+	{
+		"ingredientPattern": "P_,AH",
+		"recipeGroup": 3,
+		"width": 2,
+		"height": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:armor-head-plate-steel"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-*",
+				"name": "metal",
+				"allowedVariants": [ "copper", "iron" ]
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			}
+		},
+		"averageDurability": false,
+		"name": "Reinforced Plate Armor Head",
+		"copyAttributesFrom": "A",
+		"output": {
+			"type": "item",
+			"code": "game:armor-head-plate-steel",
+			"attributes": {
+				"shape": "game:combatoverhaul/armor/plate/head-{metal}",
+				"textures": { "material": "customizableplatearmor:{metal}" }
+			}
+		}
+	},
+	{
+		"ingredientPattern": "P_,AH",
+		"recipeGroup": 3,
+		"width": 2,
+		"height": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:armor-head-plate-steel"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-*",
+				"name": "metal",
+				"allowedVariants": [ "tinbronze", "bismuthbronze", "blackbronze" ]
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			}
+		},
+		"averageDurability": false,
+		"name": "Reinforced Plate Armor Head (Bronze)",
+		"copyAttributesFrom": "A",
+		"output": {
+			"type": "item",
+			"code": "game:armor-head-plate-steel",
+			"attributes": {
+				"shape": "game:combatoverhaul/armor/plate/head-bronze",
+				"textures": { "material": "customizableplatearmor:{metal}" }
+			}
+		}
+	},
+	{
+		"ingredientPattern": "P_,AH",
+		"recipeGroup": 3,
+		"width": 2,
+		"height": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:armor-head-plate-steel"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-*",
+				"name": "metal",
+				"allowedVariants": [ "meteoriciron" ]
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			}
+		},
+		"averageDurability": false,
+		"name": "Reinforced Plate Armor Head (Meteoric Iron)",
+		"copyAttributesFrom": "A",
+		"output": {
+			"type": "item",
+			"code": "game:armor-head-plate-steel",
+			"attributes": {
+				"shape": "game:combatoverhaul/armor/plate/head-{metal}",
+				"textures": { "meteoric": "customizableplatearmor:{metal}" }
+			}
+		}
+	},
+	{
+		"ingredientPattern": "P_,AH",
+		"recipeGroup": 3,
+		"width": 2,
+		"height": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:armor-head-plate-steel"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-*",
+				"name": "metal",
+				"allowedVariants": [ "gold" ]
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			}
+		},
+		"averageDurability": false,
+		"name": "Reinforced Plate Armor Head (Gold)",
+		"copyAttributesFrom": "A",
+		"output": {
+			"type": "item",
+			"code": "game:armor-head-plate-steel",
+			"attributes": {
+				"shape": "game:combatoverhaul/armor/plate/head-{metal}",
+				"textures": { "gold": "customizableplatearmor:{metal}" }
+			}
+		}
+	},
+	{
+		"ingredientPattern": "P_,AH",
+		"recipeGroup": 3,
+		"width": 2,
+		"height": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:armor-head-plate-steel"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-*",
+				"name": "metal",
+				"allowedVariants": [ "silver" ]
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			}
+		},
+		"averageDurability": false,
+		"name": "Reinforced Plate Armor Head (Silver)",
+		"copyAttributesFrom": "A",
+		"output": {
+			"type": "item",
+			"code": "game:armor-head-plate-steel",
+			"attributes": {
+				"shape": "game:combatoverhaul/armor/plate/head-{metal}",
+				"textures": { "silver": "customizableplatearmor:{metal}" }
+			}
+		}
+	},
+	{
+		"ingredientPattern": "P_,AH",
+		"recipeGroup": 3,
+		"width": 2,
+		"height": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:armor-body-plate-steel"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-*",
+				"name": "metal",
+				"allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "gold", "silver" ]
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			}
+		},
+		"averageDurability": false,
+		"name": "Reinforced Plate Armor Body",
+		"copyAttributesFrom": "A",
+		"output": {
+			"type": "item",
+			"code": "game:armor-body-plate-steel",
+			"attributes": {
+				"textures": { "material": "customizableplatearmor:{metal}" }
+			}
+		}
+	},
+	{
+		"ingredientPattern": "P_,AH",
+		"recipeGroup": 3,
+		"width": 2,
+		"height": 2,
+		"ingredients": {
+			"A": {
+				"type": "item",
+				"code": "game:armor-legs-plate-steel"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-*",
+				"name": "metal",
+				"allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "gold", "silver" ]
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			}
+		},
+		"averageDurability": false,
+		"name": "Reinforced Plate Armor Legs",
+		"copyAttributesFrom": "A",
+		"output": {
+			"type": "item",
+			"code": "game:armor-legs-plate-steel",
+			"attributes": {
+				"textures": { "material": "customizableplatearmor:{metal}" }
+			}
+		}
+	}
+]
