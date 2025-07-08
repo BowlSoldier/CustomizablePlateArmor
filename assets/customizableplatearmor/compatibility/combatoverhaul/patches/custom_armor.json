@@ -3,7 +3,7 @@
     "file": "game:itemtypes/wearable/seraph/armor",
     "op": "replace",
     "path": "/class",
-    "value": "ItemWearableArmorMeshByAttributes"
+    "value": "ItemWearableArmorShapeTexturesByAttributes"
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor",
