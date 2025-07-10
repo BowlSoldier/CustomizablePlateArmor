@@ -1,0 +1,158 @@
+[
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
+    "path": "/class",
+    "value": "ItemWearableArmorShapeTexturesByAttributes"
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "addmerge",
+    "path": "/attributes/creativeInventoryVariantsByType",
+    "value": {
+      "armor-head-plate-steel": {
+        "ShapeTextureVariants": [
+          {
+            "shape": "game:combatoverhaul/armor/plate/head-copper",
+            "textures": {
+              "material": "customizableplatearmor:copper"
+            }
+          },
+          {
+            "shape": "game:combatoverhaul/armor/plate/head-bronze",
+            "textures": {
+              "material": "customizableplatearmor:tinbronze"
+            }
+          },
+          {
+            "shape": "game:combatoverhaul/armor/plate/head-bronze",
+            "textures": {
+              "material": "customizableplatearmor:bismuthbronze"
+            }
+          },
+          {
+            "shape": "game:combatoverhaul/armor/plate/head-bronze",
+            "textures": {
+              "material": "customizableplatearmor:blackbronze"
+            }
+          },
+          {
+            "shape": "game:combatoverhaul/armor/plate/head-gold",
+            "textures": {
+              "gold": "customizableplatearmor:gold"
+            }
+          },
+          {
+            "shape": "game:combatoverhaul/armor/plate/head-silver",
+            "textures": {
+              "silver": "customizableplatearmor:silver"
+            }
+          },
+          {
+            "shape": "game:combatoverhaul/armor/plate/head-iron",
+            "textures": {
+              "material": "customizableplatearmor:iron"
+            }
+          },
+          {
+            "shape": "game:combatoverhaul/armor/plate/head-meteoriciron",
+            "textures": {
+              "meteoric": "customizableplatearmor:meteoriciron"
+            }
+          }
+        ],
+        "CreativeTabs": [ "customarmor" ]
+      },
+      "armor-body-plate-steel": {
+        "ShapeTextureVariants": [
+          {
+            "textures": {
+              "material": "customizableplatearmor:copper"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:tinbronze"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:bismuthbronze"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:blackbronze"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:gold"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:silver"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:iron"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:meteoriciron"
+            }
+          }
+        ],
+        "CreativeTabs": [ "customarmor" ]
+      },
+      "armor-legs-plate-steel": {
+        "ShapeTextureVariants": [
+          {
+            "textures": {
+              "material": "customizableplatearmor:copper"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:tinbronze"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:bismuthbronze"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:blackbronze"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:gold"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:silver"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:iron"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:meteoriciron"
+            }
+          }
+        ],
+        "CreativeTabs": [ "customarmor" ]
+      }
+    }
+  }
+]
