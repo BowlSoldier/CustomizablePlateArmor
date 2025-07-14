@@ -1,0 +1,222 @@
+[
+    {
+        "ingredientPattern": "P_,AH",
+        "recipeGroup": 3,
+        "width": 2,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "armory:armor-torso-plate-steel-vanilla"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-*",
+                "name": "metal",
+                "allowedVariants": [
+                    "copper",
+                    "tinbronze",
+                    "bismuthbronze",
+                    "blackbronze",
+                    "iron",
+                    "meteoriciron",
+                    "gold",
+                    "silver"
+                ]
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            }
+        },
+        "averageDurability": false,
+        "name": "Reinforced Plate Armor Torso",
+        "copyAttributesFrom": "A",
+        "output": {
+            "type": "item",
+            "code": "armory:armor-torso-plate-steel-vanilla",
+            "attributes": {
+                "textures": {
+                    "material": "customizableplatearmor:{metal}"
+                }
+            }
+        }
+    },
+    {
+        "ingredientPattern": "P_,AH",
+        "recipeGroup": 3,
+        "width": 2,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "armory:armor-arms-plate-steel-vanilla"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-*",
+                "name": "metal",
+                "allowedVariants": [
+                    "copper",
+                    "tinbronze",
+                    "bismuthbronze",
+                    "blackbronze",
+                    "iron",
+                    "meteoriciron",
+                    "gold",
+                    "silver"
+                ]
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            }
+        },
+        "averageDurability": false,
+        "name": "Reinforced Plate Armor Arms",
+        "copyAttributesFrom": "A",
+        "output": {
+            "type": "item",
+            "code": "armory:armor-arms-plate-steel-vanilla",
+            "attributes": {
+                "textures": {
+                    "material": "customizableplatearmor:{metal}"
+                }
+            }
+        }
+    },
+    {
+        "ingredientPattern": "P_,AH",
+        "recipeGroup": 3,
+        "width": 2,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "armory:armor-hands-plate-steel-vanilla"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-*",
+                "name": "metal",
+                "allowedVariants": [
+                    "copper",
+                    "tinbronze",
+                    "bismuthbronze",
+                    "blackbronze",
+                    "iron",
+                    "meteoriciron",
+                    "gold",
+                    "silver"
+                ]
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            }
+        },
+        "averageDurability": false,
+        "name": "Reinforced Plate Armor Hands",
+        "copyAttributesFrom": "A",
+        "output": {
+            "type": "item",
+            "code": "armory:armor-hands-plate-steel-vanilla",
+            "attributes": {
+                "textures": {
+                    "material": "customizableplatearmor:{metal}"
+                }
+            }
+        }
+    },
+    {
+        "ingredientPattern": "P_,AH",
+        "recipeGroup": 3,
+        "width": 2,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "armory:armor-legs-plate-steel-vanilla"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-*",
+                "name": "metal",
+                "allowedVariants": [
+                    "copper",
+                    "tinbronze",
+                    "bismuthbronze",
+                    "blackbronze",
+                    "iron",
+                    "meteoriciron",
+                    "gold",
+                    "silver"
+                ]
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            }
+        },
+        "averageDurability": false,
+        "name": "Reinforced Plate Armor Legs",
+        "copyAttributesFrom": "A",
+        "output": {
+            "type": "item",
+            "code": "armory:armor-legs-plate-steel-vanilla",
+            "attributes": {
+                "textures": {
+                    "material": "customizableplatearmor:{metal}"
+                }
+            }
+        }
+    },
+    {
+        "ingredientPattern": "P_,AH",
+        "recipeGroup": 3,
+        "width": 2,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "armory:armor-feet-plate-steel-vanilla"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-*",
+                "name": "metal",
+                "allowedVariants": [
+                    "copper",
+                    "tinbronze",
+                    "bismuthbronze",
+                    "blackbronze",
+                    "iron",
+                    "meteoriciron",
+                    "gold",
+                    "silver"
+                ]
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            }
+        },
+        "averageDurability": false,
+        "name": "Reinforced Plate Armor Feet",
+        "copyAttributesFrom": "A",
+        "output": {
+            "type": "item",
+            "code": "armory:armor-feet-plate-steel-vanilla",
+            "attributes": {
+                "textures": {
+                    "material": "customizableplatearmor:{metal}"
+                }
+            }
+        }
+    }
+]

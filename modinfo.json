@@ -6,7 +6,7 @@
         "BowlSoldier"
     ],
     "description": "Allow changing appearance of Plate armor types for cosmetics, without altering their stats",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "dependencies": {
       "combatoverhaul": "*",
       "wearablerenderlib": "1.1.0"

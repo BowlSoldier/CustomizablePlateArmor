@@ -1,0 +1,62 @@
+[
+  {
+    "file": "armory:itemtypes/armor/plate",
+    "op": "replace",
+    "path": "/class",
+    "value": "ItemWearableArmorShapeTexturesByAttributes"
+  },
+  {
+    "file": "armory:itemtypes/armor/plate",
+    "op": "addmerge",
+    "path": "/attributes/creativeInventoryVariantsByType",
+    "value": {
+      "armor-*-steel-*": {
+        "ShapeTextureVariants": [
+          {
+            "textures": {
+              "material": "customizableplatearmor:copper"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:tinbronze"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:bismuthbronze"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:blackbronze"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:gold"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:silver"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:iron"
+            }
+          },
+          {
+            "textures": {
+              "material": "customizableplatearmor:meteoriciron"
+            }
+          }
+        ],
+        "CreativeTabs": [
+          "customarmor"
+        ]
+      }
+    }
+  }
+]
